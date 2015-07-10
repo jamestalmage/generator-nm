@@ -1,1 +1,7 @@
-node_modules
+*.log
+/coverage/
+/node_modules/
+/.idea/
+/sandbox.*
+/sandbox/
+/build/

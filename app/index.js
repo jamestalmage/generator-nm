@@ -68,6 +68,9 @@ module.exports = yeoman.generators.Base.extend({
 			mv('gitattributes', '.gitattributes');
 			mv('gitignore', '.gitignore');
 			mv('jshintrc', '.jshintrc');
+			mv('test/jshintrc', 'test/.jshintrc');
+			mv('jscsrc', '.jscsrc');
+			mv('test/jscsrc', 'test/.jscsrc');
 			mv('travis.yml', '.travis.yml');
 			mv('_package.json', 'package.json');
 
