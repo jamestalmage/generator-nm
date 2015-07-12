@@ -39,4 +39,8 @@ Browse the source of my module and the upstream one by @sindresorhus. It's incre
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT 
+
+Original Source © [Sindre Sorhus](http://sindresorhus.com)
+
+Modifications © [James Talmage](https://github.com/jamestalmage)
