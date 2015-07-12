@@ -34,7 +34,7 @@ $ yo nm
 
 ## Tip
 
-Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in your CLI.
+Browse the source of my module and the upstream one by @sindresorhus. It's incredibly easy to fork and tweak things to your liking.
 
 
 ## License
