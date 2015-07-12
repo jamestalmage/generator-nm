@@ -19,7 +19,7 @@ Optionally with a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
 ## Install
 
 ```
-$ npm install --global generator-nm
+$ npm install --global generator-jt-nm
 ```
 
 
@@ -28,7 +28,7 @@ $ npm install --global generator-nm
 With [yo](https://github.com/yeoman/yo):
 
 ```
-$ yo nm
+$ yo jt-nm
 ```
 
 
