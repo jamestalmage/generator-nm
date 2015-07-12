@@ -1,13 +1,13 @@
 {
   "name": "generator-jt-nm",
   "version": "1.4.0",
-  "description": "Scaffold out a node module",
+  "description": "Similar to `nm` generator, but tweaked to my preferences",
   "license": "MIT",
-  "repository": "sindresorhus/generator-nm",
+  "repository": "jamestalmage/generator-nm",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "James Talmage",
+    "email": "james@talmage.io",
+    "url": "github.com/jamestalmage"
   },
   "engines": {
     "node": ">=0.10.0"
