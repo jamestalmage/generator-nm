@@ -1,4 +1,4 @@
-# generator-nm [![Build Status](https://travis-ci.org/jamestalmage/generator-nm.svg?branch=master)](https://travis-ci.org/jamestalmage/generator-nm)
+# generator-jt-nm [![Build Status](https://travis-ci.org/jamestalmage/generator-nm.svg?branch=james-talmage-preferences)](https://travis-ci.org/jamestalmage/generator-nm)
 
 > A fork of the node module [scaffolding](https://npmjs.com/generator-nm) by [@sindresorhus](https://www.npmjs.com/~sindresorhus).
 > It changes preferred indentation to spaces from tabs, and moves tests to a subdirectory.
