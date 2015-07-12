@@ -24,12 +24,15 @@ describe('generator', function () {
 			'.gitattributes',
 			'.gitignore',
 			'.jshintrc',
+			'test/.jshintrc',
+			'.jscsrc',
+			'test/.jscsrc',
 			'.travis.yml',
 			'index.js',
 			'license',
 			'package.json',
 			'readme.md',
-			'test.js'
+			'test/test.js'
 		];
 
 		helpers.mockPrompt(this.generator, {
