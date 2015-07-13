@@ -8,9 +8,10 @@
 ## Build Targets in Generated Project
 
 - `npm test` : run tests with coverage, then lint and check styles
-- `npm lint` : run just the linter
-- `npm style` : run just the style check
-- `npm debug` : run tests (no coverage, no lint/style checks). Especially helpful if your stacktraces have mangled line numbers
+- `npm run test` : watch for changes and rerun the tests when detected.
+- `npm run lint` : run just the linter
+- `npm run style` : run just the style check
+- `npm run debug` : run tests (no coverage, no lint/style checks). Especially helpful if your stacktraces have mangled line numbers
 
 Optionally with a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
 
