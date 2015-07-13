@@ -10,13 +10,6 @@ My <%= superb %> module
 
 [![NPM](https://nodei.co/npm/<%= moduleName %>.png)](https://nodei.co/npm/<%= moduleName %>/)
 
-## Install
-
-```
-$ npm install --save <%= moduleName %>
-```
-
-
 ## Usage
 
 ```js
