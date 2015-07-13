@@ -2,7 +2,8 @@
 
 > A fork of the node module [scaffolding](https://npmjs.com/generator-nm) by [@sindresorhus](https://www.npmjs.com/~sindresorhus).
 > It changes preferred indentation to spaces from tabs, and moves tests to a subdirectory.
-> It adds istanbul for coverage, and JSCS for style enforcement.
+> It adds istanbul for coverage (with coveralls reporting), and JSCS for style enforcement.
+> It adds a bunch of badges to the readme (nodei.co, coveralls, david-dm, and codeclimate).
 
 ## Build Targets in Generated Project
 
