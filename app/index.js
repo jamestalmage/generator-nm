@@ -38,6 +38,11 @@ module.exports = yeoman.generators.Base.extend({
 			message: 'Do you need a CLI?',
 			type: 'confirm',
 			default: false
+		}, {
+			name: 'node8',
+			message: 'Must you support Node 0.8?',
+			type: 'confirm',
+			default: false
 		}], function (props) {
 			var tpl = {
 				moduleName: props.moduleName,
@@ -48,7 +53,8 @@ module.exports = yeoman.generators.Base.extend({
 				website: props.website,
 				humanizedWebsite: humanizeUrl(props.website),
 				superb: superb(),
-				cli: props.cli
+				cli: props.cli,
+        node8: props.node8
 			};
 
 			var mv = function (from, to) {
