@@ -1,6 +1,6 @@
 {
   "name": "generator-jt-nm",
-  "version": "11.6.0",
+  "version": "11.6.1",
   "description": "Similar to `nm` generator, but tweaked to my preferences",
   "license": "MIT",
   "repository": "jamestalmage/generator-nm",
