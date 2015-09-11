@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "xo": "*",
+    "xo": "7.1",
     "yeoman-assert": "^2.0.0"
   },
   "xo": {
