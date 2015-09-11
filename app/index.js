@@ -54,7 +54,7 @@ module.exports = yeoman.generators.Base.extend({
 				humanizedWebsite: humanizeUrl(props.website),
 				superb: superb(),
 				cli: props.cli,
-        node8: props.node8
+				node8: props.node8
 			};
 
 			var mv = function (from, to) {
@@ -68,17 +68,11 @@ module.exports = yeoman.generators.Base.extend({
 
 			if (props.cli) {
 				this.fs.copyTpl(this.templatePath('cli.js'), this.destinationPath('cli.js'), tpl);
-			} else if (this.fs.exists(this.destinationPath('cli.js'))) {
-        this.fs.delete(this.destinationPath('cli.js'))
-      }
+			}
 
 			mv('editorconfig', '.editorconfig');
 			mv('gitattributes', '.gitattributes');
 			mv('gitignore', '.gitignore');
-			mv('jshintrc', '.jshintrc');
-			mv('test/jshintrc', 'test/.jshintrc');
-			mv('jscsrc', '.jscsrc');
-			mv('test/jscsrc', 'test/.jscsrc');
 			mv('travis.yml', '.travis.yml');
 			mv('_package.json', 'package.json');
 

@@ -23,10 +23,6 @@ describe('generator', function () {
 			'.editorconfig',
 			'.gitattributes',
 			'.gitignore',
-			'.jshintrc',
-			'test/.jshintrc',
-			'.jscsrc',
-			'test/.jscsrc',
 			'.travis.yml',
 			'index.js',
 			'license',
@@ -40,12 +36,13 @@ describe('generator', function () {
 			githubUsername: 'test',
 			website: 'test.com',
 			cli: false,
-      node8: false
+			node8: false
 		});
 
 		this.generator.run(function () {
 			assert.file(expected);
-      assert.noFileContent('.travis.yml', '0.8');
+			assert.noFileContent('.travis.yml', '0.8');
+			assert.noFile('cli.js');
 			cb();
 		});
 	});
@@ -56,7 +53,7 @@ describe('generator', function () {
 			githubUsername: 'test',
 			website: 'test.com',
 			cli: true,
-      node8: true
+			node8: true
 		});
 
 		this.generator.run(function () {
@@ -64,7 +61,7 @@ describe('generator', function () {
 			assert.fileContent('package.json', /"bin":/);
 			assert.fileContent('package.json', /"bin": "cli.js"/);
 			assert.fileContent('package.json', /"meow"/);
-      assert.fileContent('.travis.yml', '0.8');
+			assert.fileContent('.travis.yml', '0.8');
 			cb();
 		});
 	});
