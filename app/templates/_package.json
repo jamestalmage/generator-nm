@@ -43,6 +43,7 @@
     "envs": [
       "node",
       "mocha"
-    ]
+    ],
+    "space": true
   }
 }
